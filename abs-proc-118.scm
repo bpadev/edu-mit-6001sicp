@@ -93,6 +93,12 @@
 
 ; 1.1.8 Procedures as Black-Box Abstractions
 ; Crucial that each procedure accomplishes an identifiable task that can be used as a module in defining other procedures.
+; Block-Box concept revolves around us not being concerned with how the procedure computes its result, only the fact it does it's job.
+
+; Block structure, allowing a procedure to have internal definitions (functions) that are local to that procedure.
+; Lexical scoping, dictates that free variables in a procedure are taken to refer to bindings made by enclosing procedure defintions;
+; that is, they are looked up in the environment in which the procedure was defined.
+
 
 
 
