@@ -83,3 +83,17 @@
 (and (e)) ; compound predicates
 (not (e))
 (or (e))
+
+
+; 1.1.7 Square Roots by Newton's Method
+; The contrast between function and procedure is a reflection of the general distinction...
+; between describing properties of things and describing how to do things. (declarative knowledge vs. imperative knowledge).
+; Mathematics we are concerned with (what is) knowledge, computer science we are concerned with (how to) knowledge.
+
+
+; 1.1.8 Procedures as Black-Box Abstractions
+; Crucial that each procedure accomplishes an identifiable task that can be used as a module in defining other procedures.
+
+
+
+

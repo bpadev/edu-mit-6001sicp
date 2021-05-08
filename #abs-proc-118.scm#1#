@@ -229,7 +229,7 @@
 -1 4 1 #"\0"
 0 71 1 #"\0"
 1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 100 0 0 0 0 -1
--1           0 418 0 17 3 65
+-1           0 450 0 17 3 65
 #"; Computational process - abstract beings that inhabit computers."
 0 0 24 29 1 #"\n"
 0 0 17 3 73
@@ -677,5 +677,52 @@
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
-0 0 17 3 2 #"; "
+0 0 17 3 39 #"; 1.1.7 Square Roots by Newton's Method"
+0 0 24 29 1 #"\n"
+0 0 17 3 91
+(14
+ #"; The contrast between function and procedure is a reflection of the "
+ #"general distinction..."
+) 0 0 24 29 1 #"\n"
+0 0 17 3 9 #"; between"
+0 0 17 3 1 #" "
+0 0 17 3 10 #"describing"
+0 0 17 3 1 #" "
+0 0 17 3 10 #"properties"
+0 0 17 3 1 #" "
+0 0 17 3 2 #"of"
+0 0 17 3 1 #" "
+0 0 17 3 6 #"things"
+0 0 17 3 1 #" "
+0 0 17 3 3 #"and"
+0 0 17 3 1 #" "
+0 0 17 3 78
+(15
+ #"describing how to do things. (declarative knowledge vs. imperative kn"
+ #"owledge)."
+) 0 0 24 29 1 #"\n"
+0 0 17 3 115
+(16
+ #"; Mathematics we are concerned with (what is) knowledge, computer sci"
+ #"ence we are concerned with (how to) knowledge."
+) 0 0 24 29 1 #"\n"
+0 0 24 29 1 #"\n"
+0 0 24 29 1 #"\n"
+0 0 17 3 44 #"; 1.1.8 Procedures as Black-Box Abstractions"
+0 0 24 29 1 #"\n"
+0 0 17 3 122
+(17
+ #"; Crucial that each procedure accomplishes an identifiable task that "
+ #"can be used as a module in defining other procedures."
+) 0 0 24 29 1 #"\n"
+0 0 17 3 134
+(18
+ #"; Block-Box concept revolves around us not being concerned with how t"
+ #"he procedure computes its result, only the fact it does it's job."
+) 0 0 24 29 1 #"\n"
+0 0 24 29 1 #"\n"
+0 0 24 29 1 #"\n"
+0 0 24 29 1 #"\n"
+0 0 24 29 1 #"\n"
+0 0 24 29 1 #"\n"
 0           0
