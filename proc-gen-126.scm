@@ -14,3 +14,12 @@
       1
       (* n (factorial (- n 1)))))
 (factorial 9)
+; In general, an iterative process is one whose state can be summarized by a fixed number of state variables.
+; When we describe a procedure as recursive, we are referring to the syntactic fact that the procedure definition refers to the procedure itself.
+; But when we describe a process as following a pattern that is, say linearly recursive, we are speaking about how the process evolves, not about the syntax the procedure is written.
+; An iterative process described by a recursive procedure is called tail-recursive.
+
+
+; 1.2.2 Tree Recursion
+; In general, the number of steps required by a tree-recursive process will be proportional to the number of nodes in the tree, while space required will be proportional to the maximum depth of the tree.
+; One approach to coping with redundant computations is to arrange matters so that we automatically construct a table of values as they are computed.
