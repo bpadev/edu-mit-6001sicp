@@ -97,7 +97,7 @@
 
 ; Block structure, allowing a procedure to have internal definitions (functions) that are local to that procedure.
 ; Lexical scoping, dictates that free variables in a procedure are taken to refer to bindings made by enclosing procedure defintions;
-; that is, they are looked up in the environment in which the procedure was defined.
+; that is, they are looked up in the environment in which the procedure was defined..
 
 
 

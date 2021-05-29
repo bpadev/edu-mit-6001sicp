@@ -22,4 +22,4 @@
 
 ; 1.2.2 Tree Recursion
 ; In general, the number of steps required by a tree-recursive process will be proportional to the number of nodes in the tree, while space required will be proportional to the maximum depth of the tree.
-; One approach to coping with redundant computations is to arrange matters so that we automatically construct a table of values as they are computed.
+; One approach to coping with redundant computations is to arrange matters so that we automatically construct a table of values as they are computed. (tabulation or memoization).
