@@ -54,3 +54,5 @@
 ; 1.3.2 Constructing Procedures Using Lambda
 ; Using lambda, we can write the integral procedure without having to define the auxiliary procedure add-dx.
 ; In general lambda is used to create procedures in the same way as define, except that no name is specified for the procedure.
+
+; 1.3.3 Procedures as General Methods
