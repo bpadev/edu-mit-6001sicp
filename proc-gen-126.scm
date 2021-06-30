@@ -56,3 +56,8 @@
 ; In general lambda is used to create procedures in the same way as define, except that no name is specified for the procedure.
 
 ; 1.3.3 Procedures as General Methods
+; This section used math exmaples beyond my understanding, the exercises as well. However, I do still understand the power of structuring procedures in a general manner.
+; This allows for procedures that have uses across a program, the low specificity allows for reuse in certain places. Another example of modularity and abstraction.
+
+; 1.3.4 Procedures as Returned Values
+; This section used the same previous examples, but I already understand the power this functionality brings.
