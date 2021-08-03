@@ -22,3 +22,12 @@
 ; 2.2.1 Representing Sequences
 ; - an ordered collection of data objects.
 ; It is better to have 100 functions operate on one data structure than to have 10 functions operate on 10 data structures.
+
+
+; 2.2.2 Hierarchical Structures
+; The representation of sequences in terms of lists generalizes naturally to represent sequences whose elements may themselves be sequences. 
+; Another way to think of sequences whose elements are sequences is as trees.
+
+
+; 2.2.3 Sequences as Conventional Interfaces 
+; (do the map, filter, accumlator exercises)
