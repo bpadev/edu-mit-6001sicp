@@ -31,3 +31,31 @@
 
 ; 2.2.3 Sequences as Conventional Interfaces 
 ; (do the map, filter, accumlator exercises)
+
+
+; 2.2.4 Levels of language for robust design
+; Stratified design, the notion that a complex system should be structured as a sequence of levels that are described using a sequence of languages.
+; For example, in computer enginering, resistors and transistors are combined (and described using a language of analog circuits) to produce parts such as and-gates and or-gates, which form the primitives of a language for digital-circuit design.
+
+
+; 2.3 Symbolic Data
+
+
+; 2.3.1 Quotation
+
+
+; 2.3.3 Example: Representing Sets
+; Focuses on most efficient ways to represent the data to improve space and time complexity. 
+; The claim that searching a tree can be performed in a logarithmic number of steps rests on the assumption that the tree is "balanced", that the left and the right subtree of every tree have approximately the same number of elements, so that each subtree contains about half the elements of its parent.
+
+
+; 2.3.4 Example: Huffman Encoding Trees
+
+
+; 2.4 Multiple Representations for Abstract Data
+; By isolating the underlying representations of data objects, we can divide the task of designing a large program into smaller tasks that can be performed separately. 
+; Our main technique for building generic procedures will be to work in terms of data objects that have type tags, that is, data objects that include explicit information about how they are to be processed.
+
+
+; 2.4.1 Representations for Complex Numbers
+; 
