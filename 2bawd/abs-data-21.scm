@@ -65,3 +65,5 @@
 
 ; 2.4.3 Data-Directed Programming and Additivity
 ; The general strategy of checking the type of a datum and calling an appropriate procedure is called dispatching on type.
+; The general procedure approach is not additive, you must modify the procedure each time a new representation is installed.
+; message passing
