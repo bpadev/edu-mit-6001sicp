@@ -70,3 +70,12 @@
 
 
 ; 2.5 Systems with Generic Operations
+
+
+; 2.5.1 Generic Arithmetic Operations
+; Examples stress the importance of additivity. 
+
+
+; 2.5.2 Combining Data of Different Types
+; touches on coercion with adding two numbers of different types.
+; 
