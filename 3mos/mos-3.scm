@@ -17,3 +17,18 @@
 
 ; 3.1.2 The Benefits of Introducing Assignment
 ; If we wish to write computer programs whose structure reflect this decomposition, we make computational objects whose behavior changes with time. We model state with local state variables, and we model the changes of state with assignments to those variables.
+
+
+; 3.1.3 The Costs of Introducting Assigment
+; Our programming language can no longer be interpreted in terms of the substitution model of procedure application.
+; So long as we do not use assignments, two evaluations of the same procedure with the same arguments will produce the same result, so that procedures can be viewed as computing mathematical functions.
+; Programming without any use of assignments is known as functional programming.
+; Substitution is based ultimately on the notion that the symbols in our language are essentially names for values. Now a variable somehow refers to a place where a value can be stored, and the value stored at this place can change.
+; We will see how environments play this role of "place" in our computational model.
+; A language that supports the concept that "equals can be substituted for equals" in an expression without changing the value of the expression is said to be referentially transparent. 
+; (the phenomenon of a single computational object being accessed by more than one name is known as aliasing.)
+; In contrast to functional programming, programming that makes extensive use of assignment is known as imperative programming. Programs written in imperative style are susceptible to bugs that cannot occur in functional programs.
+
+
+; 3.2 The Environment Model of Evaluation
+; 
