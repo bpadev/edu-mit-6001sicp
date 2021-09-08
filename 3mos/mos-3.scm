@@ -31,4 +31,24 @@
 
 
 ; 3.2 The Environment Model of Evaluation
+; A variable must somehow designate a "place" in which values can be stored. In our new model of evaluation, these places will be maintained in structures called environments.
+; An environment is a sequence of frames. Each frame is a table of bindings, which associate variable names with their corresponding values.
+; Each frame has a pointer to its enclosing environment, unless the frame is global.
+
+
+; 3.2.1 The Rules for Evaluation
+; One should never write programs that depend on some particular order. A sophisticated compiler might optimize a program by varying the order in which subexpressions are evaluated.
+
+
+; 3.2.2 Applying Simple Procedures
+; some people prefer redefinition of existing symbols to signal errors or warnings. (like const in JS)
+
+
+; 3.2.3 Frames as the Repository of Local State
+
+
+; 3.2.4 Internal Defintions
+
+
+; 3.3 Modeling with Mutable Data
 ; 
