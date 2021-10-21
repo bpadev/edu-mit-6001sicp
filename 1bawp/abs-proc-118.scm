@@ -42,6 +42,7 @@
 
 ; 1.1.3 Evaluating Combinations
 ; 1.1.4 Compound Procedures
+(define (function-name parameter) (function_body))
 (define (square x) (* x x)) ; this is a compound procedure. (define ((name) (formal paramaters)) (body))
 (+ (square x) (square y))
 
