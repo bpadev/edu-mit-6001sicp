@@ -21,7 +21,7 @@
 
 ; 3.1.3 The Costs of Introducting Assigment
 ; Our programming language can no longer be interpreted in terms of the substitution model of procedure application.
-; So long as we do not use assignments, two evaluations of the same procedure with the same arguments will produce the same result, so that procedures can be viewed as computing mathematical functions.
+; So long as we do not use assignments, two evaluations of the same procedure with the same arguments will produce the same result, so that procedures can be viewed as computing mathematical functions. (functional programming)
 ; Programming without any use of assignments is known as functional programming.
 ; Substitution is based ultimately on the notion that the symbols in our language are essentially names for values. Now a variable somehow refers to a place where a value can be stored, and the value stored at this place can change.
 ; We will see how environments play this role of "place" in our computational model.
@@ -57,3 +57,20 @@
 ; 3.3.4 A Simulator for Digital Circuits 
 ; Digital systems are constructed by interconnecting simple elements.
 ; This section dives deep into building digital circuits modeling real systems.
+; Look further into the agenda data structure, which seems to be just a headed list.
+
+
+; 3.3.5 Propagation of Constraints
+; Makes note of traditional programs being organized as one-directional computations, which perform operations on prespecified arguments to produce desired outputs.
+; However, we often model systems in terms of relations among quantities. 
+; Make note of constraint networks.
+
+
+; 3.4 Concurrency: Time Is of the Essence
+; The central issue lurking beneath the complexity of state, sameness, and change is that by introducing assignment we are forced to admit time into our computational models.
+; Objects in the world do not change one at a time in sequence. Rather we perceive them as acting concurrently--all at once.
+; If it is possible to decompose a problem into pieces that are relatively independent and need to communicate only rarely, it may be possible to allocate pieces to separate computing processors, producing a speed advantage proportional to the number of processors available.
+
+
+; 3.4.1 The Nature of Time in Concurrent Systems
+; Importance of the bank withdrawal example.
