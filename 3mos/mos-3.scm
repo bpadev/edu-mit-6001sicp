@@ -74,4 +74,16 @@
 
 ; 3.4.1 The Nature of Time in Concurrent Systems
 ; Importance of the bank withdrawal example.
+
+
+; 3.4.2 Mechanisms for Controlling Concurrency
+; Serialization implements the following idea: Processes will execute concurrently, but there will be certain collections of procedures that cannot be executed concurrently.
+; Serializers provide a powerful abstraction that helps isolate complexities of concurrent programs so that they can be dealt with carefully and (hopefully) correctly.
+; Concurrent programmming can be treacherously difficult when there are multiple shared resources.
+; We implement serializers in terms of a more primitive synchronization mechanism called a mutex. A mutex (mutual exclusion) is an object that supports two operations -- the mutex can be acquired, and the mutex can be released.
+; The situation when serializers cause two processes to wait on each other to exit to continue is called deadlock.
+
+
+; 3.5 Streams
+; Streams can mitigate some of the complexity of modeling state.
 ; 
