@@ -86,5 +86,16 @@
 
 ; 3.5 Streams
 ; Streams can mitigate some of the complexity of modeling state.
-; 
+; From an abstract point of view, a stream is simply a sequence.
+; Stream processing lets us model systems that have state without ever using assignment or mutable data.
+
+
+; 3.5.1 Streams Are Delayed Lists
+; (review streams)
+; The difference between streams and lists is the time at which the elements are evaluated.
+; In general, we can think of delayed evaluation as "demand-driven" programming, whereby each stage in the stream process is activated only enough to satisfy the next stage.
+; The first time the memoized procedure is run, it saves the compound result. On subsequent evaluations, it simply returns the result.
+
+
+; 3.5.2 Infinite Streams
 ; 
