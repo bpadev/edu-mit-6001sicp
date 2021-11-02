@@ -98,5 +98,8 @@
 
 
 ; 3.5.2 Infinite Streams
-; 
-; 
+; We can use streams to represent sequences that are infinitely long.
+
+
+; 3.5.3 Exploiting the Stream Paradigm
+; Streams with delayed evaluation can be a powerful modeling tool, providing many of the benefits of locat state and assignment.
