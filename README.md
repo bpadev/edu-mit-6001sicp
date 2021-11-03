@@ -61,34 +61,56 @@ Learning the techniques used to control the intellectual complexity of large sof
         2.5.3 Example: Symbolic Algebra
 #### 3. Modularity, Objects, and State
     3.1 Assignment and Local State
-    3.1.1 Local State Variables
-    3.1.2 The Benefits of Introducing Assignment
-    3.1.3 The Costs of introducing Assignment
+        3.1.1 Local State Variables
+        3.1.2 The Benefits of Introducing Assignment
+        3.1.3 The Costs of introducing Assignment
 
     3.2 The Environment Model of Evaluation
-    3.2.1 The Rules for Evaluation
-    3.2.2 Applying Simple Procedures
-    3.2.3 Frames as the Repository of Local State
-    3.2.4 Internal Definitions
+        3.2.1 The Rules for Evaluation
+        3.2.2 Applying Simple Procedures
+        3.2.3 Frames as the Repository of Local State
+        3.2.4 Internal Definitions
 
     3.3 Modeling with Mutable Data
-    3.3.1 Mutable List Structure
-    3.3.2 Representing Queues
-    3.3.3 Representing Tables
-    3.3.4 A Simulator for Digital Circuits
-    3.3.5 Propagation of Constraints
+        3.3.1 Mutable List Structure
+        3.3.2 Representing Queues
+        3.3.3 Representing Tables
+        3.3.4 A Simulator for Digital Circuits
+        3.3.5 Propagation of Constraints
 
     3.4 Concurrency: Time Is of the Essence
-    3.4.1 The Nature of Time in Concurrent Systems
-    3.4.2 Mechanisms for Controlling Concurrency
+        3.4.1 The Nature of Time in Concurrent Systems
+        3.4.2 Mechanisms for Controlling Concurrency
 
     3.5 Streams
-    3.5.1 Streams Are Delayed Lists
-    3.5.2 Infinite Streams
-    3.5.3 Exploiting the Stream Paradigm
-    3.5.4 Streams and Delayed Evaluation
-    3.5.5 Modularity of Functional Programs and Modularity of Objects
+        3.5.1 Streams Are Delayed Lists
+        3.5.2 Infinite Streams
+        3.5.3 Exploiting the Stream Paradigm
+        3.5.4 Streams and Delayed Evaluation
+        3.5.5 Modularity of Functional Programs and Modularity of Objects
 #### 4. Metalinguistic Abstraction
     4.1 The Metacircular Evaluator
-    4.1.1 The Core of the Evaluator
-    4.1.2 Representing Expressions
+        4.1.1 The Core of the Evaluator
+        4.1.2 Representing Expressions
+        4.1.3 Evaluator Data Structures
+        4.1.4 Running the Evaluator as a Program
+        4.1.5 Data as Programs
+        4.1.6 Internal Definitions
+        4.1.7 Separating Syntactic Analysis from Execution
+
+    4.2 Variations on a Scheme--Lazy Evaluation
+        4.2.1 Normal Order and Applicative Order
+        4.2.2 An Interpreter with Lazy Evaluation
+        4.2.3 Streams as Lazy Lists
+
+    4.3 Variations on a Scheme--Nondeterministic Computing
+        4.3.1 Amb and Search
+        4.3.2 Examples of Nondeterministic Programs
+        4.3.3 Implementing the Amb Evaluator
+
+    4.4 Logic Programming
+        4.4.1 Deductive Information Retrieval
+        4.4.2 How the Query System Works
+        4.4.3 Is Logic Programming Mathematical Logic?
+        4.4.4 Implementing the Query System
+#### 5. Computing with Register Machines
