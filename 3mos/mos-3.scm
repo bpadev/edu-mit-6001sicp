@@ -103,5 +103,13 @@
 
 ; 3.5.3 Exploiting the Stream Paradigm
 ; Streams with delayed evaluation can be a powerful modeling tool, providing many of the benefits of locat state and assignment.
-; 
-; 
+
+
+; 3.5.4 Streams and Delayed Evaluation
+; In general, creating separate classes of procedures forces us to create separate classes of higher-order procedures as well.
+
+
+; 3.5.5 Modularity of Functional and Modularity of Objects
+; Functional programming languages do not include any provision for assignment or mutable data.
+; The functional approach is extremely attractive for dealing with concurrent systems.
+; We can model the world as a collection of separate, timebound, interacting objects with state, or we can model the world as a single, timeless, stateless unity.
