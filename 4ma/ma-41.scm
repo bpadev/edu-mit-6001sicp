@@ -35,4 +35,9 @@
 
 
 ; 4.1.6 Internal Definitions
+; Talks about the issue of recursive procedures in internal defintions and how our interpreter must treat these.
+; Touches upon scope and how local variables can truly all be local by using a version of lamba.
+
+
+; 4.1.7 Separating Syntactic Analysis from Execution
 ; 
