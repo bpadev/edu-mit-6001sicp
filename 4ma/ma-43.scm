@@ -8,4 +8,8 @@
 
 
 ; 4.3.2 Examples of Nondeterministic Programs
+; The advantage of nondeterministic programming is that we can surpress the details of how search is carried out, thereby expressing our programs at a higher level of abstraction.
+
+
+; 4.3.3 Implementing the Amb Evaluator
 ; 
