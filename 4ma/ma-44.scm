@@ -10,4 +10,7 @@
 
 
 ; 4.4.1 Deductive Information Retrieval
+; We can use logical operators to form compound queries. 
+; We can then abstract queries to form rules. 
+(rule (conclusion) (body)) ; conclusion is a pattern and body is any query.
 ; 
