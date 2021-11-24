@@ -13,4 +13,20 @@
 ; We can use logical operators to form compound queries. 
 ; We can then abstract queries to form rules. 
 (rule (conclusion) (body)) ; conclusion is a pattern and body is any query.
-; 
+
+
+; 4.4.2 How the Query System Works
+; The query system is organized around two central operations called pattern matching and unification. 
+; A pattern matcher is a program that tests whether some datum fits a specified pattern. 
+((a b) c (a b)) 
+; matches the below pattern with the following pattern variable bound to the following
+(?x c ?x) ?x (a b)
+; The pattern matcher used by the query system takes as inputs a pattern, a datum, and a frame that specifies bindings for various pattern variables.
+; The testing of patterns against frames is organized through the use of streams.
+; There is a large literature on data-base-management systems that is concerned with how to handle complex queries efficiently. 
+; A generalization of pattern matching is called unification, in which both the "pattern" and the "datum" may contain variables.
+; The unification algorithm is the most technically difficult part of the query system.
+; Rule definitions are the means of abstraction in the query language.
+
+
+;
