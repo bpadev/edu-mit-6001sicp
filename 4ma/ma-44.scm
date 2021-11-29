@@ -29,4 +29,6 @@
 ; Rule definitions are the means of abstraction in the query language.
 
 
-; 4.4.3
+; 4.4.3 Is Logic Programming Mathematical Logic
+; This identification of the query language with mathematical logic is not really valid, though, because the query language provides a control structure that interprets the logical statements procedureally. 
+; The aim of logic programming is 
