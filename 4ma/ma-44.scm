@@ -31,4 +31,12 @@
 
 ; 4.4.3 Is Logic Programming Mathematical Logic
 ; This identification of the query language with mathematical logic is not really valid, though, because the query language provides a control structure that interprets the logical statements procedureally. 
-; The aim of logic programming is 
+; The aim of logic programming is to provide the programmer with techniques for decomposing a computational problem into two separate problems: "what" is to be computed, and "how" this should be computed.
+; The not of logic programming languages reflects the so-called closed world assumption that all relevant information has been included in the data base.
+
+
+; 4.4.4 Implementing the Query System
+
+; 4.4.4.1 The Driver Loop and Instantiation
+
+; 4.4.4.2 The Evaluator
