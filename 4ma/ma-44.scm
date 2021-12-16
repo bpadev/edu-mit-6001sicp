@@ -40,4 +40,10 @@
 ; 4.4.4.1 The Driver Loop and Instantiation
 
 ; 4.4.4.2 The Evaluator
-;
+; Any query that is not identified as a special form is assumed to be a simple query.
+
+; 4.4.4.3 Finding Assertions by Pattern Matching
+; We never modify a stored binding and we never store more than one binding for a given variable. 
+
+; 4.4.4.4 Rules and Unification
+; 
