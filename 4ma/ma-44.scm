@@ -46,4 +46,13 @@
 ; We never modify a stored binding and we never store more than one binding for a given variable. 
 
 ; 4.4.4.4 Rules and Unification
-; 
+
+; 4.4.4.5 Maintaining the Data Base
+; One important problem in designing logic programming languages is that of arranging things so that as few irrelevant data-base entries as possible will be examined in checking a given pattern.
+
+; 4.4.4.6 Stream Operations
+
+; 4.4.4.7 Query Syntax Procedures
+
+; 4.4.4.8 Frames and Bindings
+; Frames are represented as lists of bindings, which are variable-value pairs.
