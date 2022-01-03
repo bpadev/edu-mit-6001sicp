@@ -145,4 +145,4 @@ Learning the techniques used to control the intellectual complexity of large sof
         5.5.4 Combining Instruction Sequences
         5.5.5 An Example of Compiled Code
         5.5.6 Lexical Addressing
-        5.5.7 Interfacing Compiled Code to the Evaluator
+        5.5.7 Interfacing Compiled Code to the Evaluator 
